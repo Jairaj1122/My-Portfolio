@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+header{
+    background: url("cover-image (3).png");
+    background-size: cover;
+    height: 200px;
+}
+#header-1{
+    padding: 10px 0px;
+    background-color: rgb(92, 91, 89);
+    margin: 0px;
+    
+}
+body{
+    background-color: #1c2841;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.header-menu{
+    display: inline;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.header-menu:hover{
+    background-color: aquamarine;
+}
+h1{
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+ul{
+    padding-left: 0px;
+}
+li{
+    display: inline;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+#body-1{
+    background-color: #536878;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    margin: 100px 5px 5px 50px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px -5px;
+    display: inline-block;
+}
+div:hover{
+    margin: 90px 0px 0px 45px;
+    border: 5px inset rgb(79, 203, 77);
+}
+footer{
+    background-color: #536878;
+    height: 100px;
+    text-align: center;
+    padding: 10px 30px;
+}
+.insta-footer{
+    height: 35px;
+}
+.github-footer{
+    height: 35px;
+}
+.linkedin-footer{
+    height: 35px;
+}
